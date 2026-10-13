@@ -1,0 +1,6 @@
+{
+  "name": "Kroma Specialty Coffee & Roasters",
+  "description": "Artisanal specialty coffee roastery & modern café. Explore single-origin pour-overs, handcrafted espresso, fresh bakery, live opening hours, and order ahead for counter pickup.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

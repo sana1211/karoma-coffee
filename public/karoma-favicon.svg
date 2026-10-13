@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Karoma Coffee logo">
+  <defs>
+    <linearGradient id="bg" x1="18" y1="12" x2="110" y2="116" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0c995"/>
+      <stop offset="0.45" stop-color="#9d633c"/>
+      <stop offset="1" stop-color="#40241c"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="40" y1="50" x2="88" y2="96" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff8f0"/>
+      <stop offset="1" stop-color="#e9d2b5"/>
+    </linearGradient>
+  </defs>
+  <circle cx="64" cy="64" r="58" fill="#1a120f"/>
+  <circle cx="64" cy="64" r="54" fill="url(#bg)"/>
+  <circle cx="64" cy="64" r="47" fill="#2b1a15" opacity="0.92"/>
+  <path d="M43 54h34c2.8 0 5 2.2 5 5v13c0 12.1-9.9 22-22 22h-1c-12.1 0-22-9.9-22-22V59c0-2.8 2.2-5 5-5z" fill="url(#cup)"/>
+  <path d="M80 58c8.6-.3 15 4.8 15 12.4S89.3 83 80.8 83" fill="none" stroke="#f1dcc1" stroke-width="7" stroke-linecap="round"/>
+  <path d="M80 60c6.3-.2 10.8 3.1 10.8 8.8 0 5.8-4.6 9.2-10.5 9.3" fill="none" stroke="#5f3a2a" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M37 52c8-3.8 18.2-6 28.8-6 10.1 0 19.5 2 27 5.5" fill="none" stroke="#f6dfbf" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <path d="M49 45c-5.5-7.5 7.2-10.1 1.5-18" fill="none" stroke="#f1dcc1" stroke-width="4" stroke-linecap="round"/>
+  <path d="M64 42c-5.5-7.5 7.2-10.1 1.5-18" fill="none" stroke="#f1dcc1" stroke-width="4" stroke-linecap="round"/>
+  <path d="M79 45c-5.5-7.5 7.2-10.1 1.5-18" fill="none" stroke="#f1dcc1" stroke-width="4" stroke-linecap="round"/>
+  <path d="M44 71c6.8-3.8 15.2-6 24-6 7.5 0 14.6 1.5 20.7 4.3" fill="none" stroke="#8f5e3d" stroke-width="5" stroke-linecap="round" opacity="0.9"/>
+  <path d="M45 91h38" stroke="#f0d0a4" stroke-width="4.2" stroke-linecap="round" opacity="0.85"/>
+  <text x="64" y="111" font-size="16" font-family="Arial, Helvetica, sans-serif" font-weight="700" text-anchor="middle" fill="#e8c18f">K</text>
+</svg>

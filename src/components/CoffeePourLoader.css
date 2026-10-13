@@ -1,0 +1,26 @@
+.coffee-loader{position:fixed;inset:0;z-index:9999;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at 50% 40%,#302016 0%,#19120f 44%,#0e0d0c 80%);color:#f5e4ce;opacity:1;transition:opacity .6s ease,visibility .6s ease}
+.coffee-loader--leaving{opacity:0;visibility:hidden;pointer-events:none}
+.coffee-loader__halo{position:absolute;width:min(80vw,520px);aspect-ratio:1;border:1px solid #bd916529;border-radius:50%;box-shadow:0 0 100px #c58d3e13,inset 0 0 90px #b57b3d0d}
+.coffee-loader__content{position:relative;display:flex;flex-direction:column;align-items:center;width:min(90vw,500px);text-align:center}
+.coffee-loader__eyebrow{color:#c6a178;font:600 10px/1.4 system-ui,sans-serif;letter-spacing:.34em}
+.coffee-loader__art{width:min(88vw,390px);margin:16px 0 -2px}
+.coffee-loader__svg{width:100%;overflow:visible;filter:drop-shadow(0 18px 18px #09050370)}
+.coffee-loader__cup{transform-origin:210px 188px;animation:coffee-cup-pop 3.35s ease-in-out both}
+.coffee-loader__liquid{transform:translateY(118px);animation:coffee-fill 3.35s ease-in-out both}
+.coffee-loader__surface{transform:translateY(118px);animation:coffee-fill 3.35s ease-in-out both,coffee-surface 3.35s ease-in-out both}
+.coffee-loader__foam{transform:translateY(118px);animation:coffee-fill 3.35s ease-in-out both,coffee-foam 3.35s ease-in-out both}
+.coffee-loader__steam{opacity:0;animation:coffee-steam 3.35s ease-in-out both}
+.coffee-loader__aroma-dots{opacity:0;animation:coffee-aroma 3.35s ease-in-out both}
+.coffee-loader__title{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(25px,5vw,37px);line-height:1.2;letter-spacing:-.035em;margin:0 0 10px}
+.coffee-loader__title em{font-weight:400;color:#d7a572}
+.coffee-loader__subtitle{font:400 12px/1.6 system-ui,sans-serif;color:#a99685;letter-spacing:.1em;margin:0 0 29px}
+.coffee-loader__progress{width:145px;height:2px;background:#ffffff20;border-radius:10px;overflow:hidden}
+.coffee-loader__progress span{display:block;width:100%;height:100%;background:linear-gradient(90deg,#ad7446,#f2c791);transform-origin:left;animation:coffee-progress 3.35s linear both}
+@keyframes coffee-cup-pop{0%,12%{transform:translateY(4px) scale(.98)}30%,70%{transform:translateY(0) scale(1)}100%{transform:translateY(0) scale(1)}}
+@keyframes coffee-fill{0%,24%{transform:translateY(118px)}36%{transform:translateY(92px)}50%{transform:translateY(62px)}68%{transform:translateY(28px)}82%,100%{transform:translateY(0)}}
+@keyframes coffee-surface{0%,24%{opacity:0}36%,100%{opacity:1}}
+@keyframes coffee-foam{0%,30%{opacity:0}52%{opacity:.2}78%,100%{opacity:.6}}
+@keyframes coffee-steam{0%,42%{opacity:0;transform:translateY(10px)}62%{opacity:.55}78%{opacity:.85}100%{opacity:0;transform:translateY(-14px)}}
+@keyframes coffee-aroma{0%,44%{opacity:0;transform:translateY(6px)}62%{opacity:.45}100%{opacity:0;transform:translateY(-12px)}}
+@keyframes coffee-progress{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@media(prefers-reduced-motion:reduce){.coffee-loader *{animation:none!important}.coffee-loader__liquid,.coffee-loader__surface,.coffee-loader__foam{transform:translateY(0)}.coffee-loader__steam,.coffee-loader__aroma-dots{opacity:.5}.coffee-loader__progress span{transform:scaleX(1)}}
